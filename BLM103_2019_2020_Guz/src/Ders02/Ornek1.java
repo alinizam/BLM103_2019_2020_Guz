@@ -24,9 +24,11 @@ public class Ornek1 {
         //Hatalı kod
         //int k=10l;
         
-        int sayi16lik=0xA1;
-        sayi16lik=150;
-        System.out.println(sayi16lik);
-
+        int sayi16likGosterim=0xFF;
+        sayi16likGosterim=150;
+        System.out.println(sayi16likGosterim);
+        
+        int sayi2likGosterim = 0b1101;
+        System.out.println(sayi2likGosterim);
     }
 }
