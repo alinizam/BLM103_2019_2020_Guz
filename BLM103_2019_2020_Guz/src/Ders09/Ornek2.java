@@ -9,14 +9,18 @@ package Ders09;
  *
  * @author alinizam
  */
-public class Ornek1 {
+public class Ornek2 {
+    //Dizi eleman toplamlarını bulma
     public static void main(String[] args) {
         int sayilar[];
         sayilar=new int[5];
         sayilar[1]=10;
         sayilar[3]=15;
+        int toplam=0;
         for (int i = 0; i < sayilar.length; i++) {
-            System.out.println(sayilar[i]);
+            toplam=toplam+sayilar[i];
         }
+        System.out.println("Toplam = "+toplam);
     }
+    
 }

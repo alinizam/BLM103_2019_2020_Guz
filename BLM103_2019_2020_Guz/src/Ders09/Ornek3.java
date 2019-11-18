@@ -9,14 +9,14 @@ package Ders09;
  *
  * @author alinizam
  */
-public class Ornek1 {
+public class Ornek3 {
     public static void main(String[] args) {
-        int sayilar[];
-        sayilar=new int[5];
-        sayilar[1]=10;
-        sayilar[3]=15;
-        for (int i = 0; i < sayilar.length; i++) {
-            System.out.println(sayilar[i]);
-        }
+        int dizi1[]={5,8,9};
+        int dizi2[];
+        dizi2=new int[]{1,5,7};
+        
+        dizi1=dizi2;
+        System.out.println(dizi2==dizi1); 
+        System.out.println(dizi1[2]);
     }
 }
